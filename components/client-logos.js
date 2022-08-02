@@ -55,7 +55,7 @@ const ClientLogos = () => {
                     </SliderItem>
                 ))}
             </SliderContainer>
-            <SliderContainer initialOffsetX={600}>
+            <SliderContainer initialOffsetX={1250}>
                 {images.map((image, index) => (
                     <SliderItem key={index} width={200}>
                         <Image
